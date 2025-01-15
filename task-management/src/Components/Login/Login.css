@@ -1,0 +1,83 @@
+/* Login.css */
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-field {
+    display: grid;
+    gap: 10px;
+}
+
+.login input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #1976d2;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
+.login-login {
+    text-align: center;
+}
+
+.login-login span {
+    color: #f44336;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.google-login-text {
+    display: inline-flex;  /* Aligns the text and icon inline */
+    align-items: center;  /* Vertically aligns them */
+    font-size: 16px;
+    cursor: pointer;
+    color: red;  /* Google blue color for the text */
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.google-login-text:hover {
+    color: #357AE8;  /* Darker blue when hovered */
+}
+
+.google-login-text svg {
+    margin-left: 10px;  /* Adds spacing between the text and the icon */
+}
+h1 {
+    font-size: 32px; /* Larger text size for better readability */
+    color: #333; /* Dark gray color for the text */
+    font-weight: 600; /* Semi-bold text */
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Adds space below the heading */
+    text-transform: uppercase; /* Makes the text uppercase */
+    letter-spacing: 1px; /* Adds spacing between letters */
+}
